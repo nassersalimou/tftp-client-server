@@ -1,0 +1,6 @@
+client
+serveur
+*.o
+*.log
+.DS_Store
+
