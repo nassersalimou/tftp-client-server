@@ -23,10 +23,11 @@ Le port TFTP standard `69` peut nécessiter des privilèges administrateur sous 
 
 ```bash
 ./serveur
-./client 127.0.0.1
+./client 127.0.0.1 get examples/test.txt
+./client 127.0.0.1 put fichier.txt
 ```
 
-Le client propose ensuite d'envoyer ou de télécharger un fichier.
+La syntaxe du client est `./client <serveur_ip> <get/put> <fichier>`.
 
 ## Contenu
 
